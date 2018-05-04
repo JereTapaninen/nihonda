@@ -1,0 +1,18 @@
+{
+  "parser": "babel-eslint",
+  "plugins": ["react"],
+  "extends": "airbnb",
+  "rules": {
+    "arrow-parens": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "react/jsx-filename-extension": 0,
+    "react/forbid-prop-types": 0,
+    "react/jsx-curly-spacing": [2, "always"]
+  },
+  "globals": {
+      "fetch": true,
+      "document": true,
+      "localStorage": true,
+      "Blob": true,
+  }
+}
