@@ -27,7 +27,7 @@
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack",
-    "test": "eslint --ext .js,.jsx src/",
+    "test": "eslint --ext .js,.jsx --fix src/",
     "eject": "react-scripts eject",
     "start:dev": "webpack-dev-server"
   },
